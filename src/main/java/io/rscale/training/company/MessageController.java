@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RefreshScope
 @RestController
-public class CompanyController {
+public class MessageController {
     @Value("${message:Hello default}")
     private String message;
 
@@ -18,5 +18,4 @@ public class CompanyController {
     String getMessage() {
         return "\n" + this.message + "\n\n";
     }
-
 }
