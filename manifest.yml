@@ -6,7 +6,7 @@ applications:
   random-route: true
   path: build/libs/company.jar
   services:
-  - company_db
+  - companydb
   - configserver
   buildpack: java_buildpack
   env: 

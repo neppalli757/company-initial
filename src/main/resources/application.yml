@@ -1,5 +1,0 @@
----
-
-spring:
-  jpa.hibernate.ddl-auto: update
-  jpa.properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
