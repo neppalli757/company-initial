@@ -1,0 +1,12 @@
+--- 
+applications:
+- name: company_initial
+  memory: 1G
+  instances: 1
+  random-route: true
+  path: build/libs/company.jar
+  services:
+  - company_db
+  buildpack: java_buildpack
+  env: 
+    SPRING_PROFILES_ACTIVE: dev
