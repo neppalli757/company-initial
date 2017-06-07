@@ -13,5 +13,5 @@ management:
 
 security:
   basic:
-    enabled: false	  
-	  
+    enabled: false
+
